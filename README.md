@@ -1,4 +1,7 @@
 # Gramit
+
+[ ![Download](https://api.bintray.com/packages/flagbeatinc/Gramit/com.flagbeat.gramit/images/download.svg?version=1.1.3) ](https://bintray.com/flagbeatinc/Gramit/com.flagbeat.gramit/1.1.3/link)
+
 > A library to simplify runtime permission handling in Android
 
 ## Demo Screens
