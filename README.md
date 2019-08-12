@@ -16,14 +16,14 @@
 #### Gradle
 Add this Gradle dependency to your **app/build.gradle** file
 ```
-implementation "com.flagbeat.gramit:gramit:1.1.2"
+implementation "com.flagbeat.gramit:gramit:1.1.3"
 ```
 #### Maven
 ```
 <dependency>
 	<groupId>com.flagbeat.gramit</groupId>
 	<artifactId>gramit</artifactId>
-	<version>1.1.2</version>
+	<version>1.1.3</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -57,7 +57,7 @@ Gramit.builder()
       .permissions(permissions)
       .showContextualMessage(true)
       .openSettingText("Go to App permissions and enable all the required permissions.")
-      .popOkButtonText("Got it")
+      .popupOkButtonText("Got it")
       .build();
 ```
 3. **(Optional)** In the activity, you will get the grant status callback in ```onActivityResult``` method. Received intent contains grant code, lists of granted permissions, denied permissions and declined permissions (Never ask again permissions).
