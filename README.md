@@ -104,7 +104,7 @@ minSdkVersion 16
 ## Debugging
 If you are not getting a permission specific card in the permission dialogue carousel, then check below:
 - Check if you have declared the permission in the Manifest file.
-- Check if you have added the permission in the permission list before submitting it to Gramit library
+- Check if you have added the permission in the permission list before submitting it to Gramit library.
 - Raise a bug [here](https://github.com/flagbeat/gramit/issues) otherwise as per this [template](https://github.com/flagbeat/Gramit/tree/master/.github/ISSUE_TEMPLATE).
 
 ## Who's using it
@@ -112,7 +112,7 @@ If you are not getting a permission specific card in the permission dialogue car
 
 ## Developed by
 - **Sumit Saurabh** (sumitsaurabh2293@gmail.com)
-[Find me on LinkedIn](https://www.linkedin.com/in/-sumitsaurabh/)
+</br>[Find me on LinkedIn](https://www.linkedin.com/in/-sumitsaurabh/)
 
 ## Used libraries
 - [Picasso](https://square.github.io/picasso/): It has been used to load remote url of thumbnails in permission dialogue.
