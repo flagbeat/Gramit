@@ -1,6 +1,6 @@
 # Gramit
 
-[ ![Download](https://api.bintray.com/packages/flagbeatinc/Gramit/com.flagbeat.gramit/images/download.svg?version=1.1.5) ](https://bintray.com/flagbeatinc/Gramit/com.flagbeat.gramit/1.1.5/link)
+[ ![Download](https://api.bintray.com/packages/flagbeatinc/Gramit/com.flagbeat.gramit/images/download.svg?version=1.1.6) ](https://bintray.com/flagbeatinc/Gramit/com.flagbeat.gramit/1.1.6/link)
 
 > A library to simplify runtime permission handling in Android
 
@@ -19,14 +19,14 @@
 #### Gradle
 Add this Gradle dependency to your **app/build.gradle** file
 ```
-implementation "com.flagbeat.gramit:gramit:1.1.5"
+implementation "com.flagbeat.gramit:gramit:1.1.6"
 ```
 #### Maven
 ```
 <dependency>
 	<groupId>com.flagbeat.gramit</groupId>
 	<artifactId>gramit</artifactId>
-	<version>1.1.5</version>
+	<version>1.1.6</version>
 	<type>pom</type>
 </dependency>
 ```
