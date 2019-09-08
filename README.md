@@ -1,6 +1,6 @@
 # Gramit
 
-[ ![Download](https://api.bintray.com/packages/flagbeatinc/Gramit/com.flagbeat.gramit/images/download.svg?version=1.1.6) ](https://bintray.com/flagbeatinc/Gramit/com.flagbeat.gramit/1.1.6/link)
+[ ![Download](https://api.bintray.com/packages/flagbeatinc/Gramit/com.flagbeat.gramit/images/download.svg?version=1.1.7) ](https://bintray.com/flagbeatinc/Gramit/com.flagbeat.gramit/1.1.7/link)
 
 > A library to simplify runtime permission handling in Android
 
@@ -19,14 +19,14 @@
 #### Gradle
 Add this Gradle dependency to your **app/build.gradle** file
 ```
-implementation "com.flagbeat.gramit:gramit:1.1.6"
+implementation "com.flagbeat.gramit:gramit:1.1.7"
 ```
 #### Maven
 ```
 <dependency>
 	<groupId>com.flagbeat.gramit</groupId>
 	<artifactId>gramit</artifactId>
-	<version>1.1.6</version>
+	<version>1.1.7</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -88,13 +88,13 @@ Gramit.builder()
     private void handleGramitResponse(Intent data)
     {
         Log.i("Grant Code ",
-              String.valueOf(data.getIntExtra(Keys.GRANT_CODE, 0)));
+              String.valueOf(data.getIntExtra(Gramit.GRANT_CODE, 0)));
         Log.i("GRANTED_PERMISSIONS ",
-              Arrays.toString(data.getStringArrayExtra(Keys.GRANTED_PERMISSIONS)));
+              Arrays.toString(data.getStringArrayExtra(Gramit.GRANTED_PERMISSIONS)));
         Log.i("DENIED_PERMISSIONS ",
-              Arrays.toString(data.getStringArrayExtra(Keys.DENIED_PERMISSIONS)));
+              Arrays.toString(data.getStringArrayExtra(Gramit.DENIED_PERMISSIONS)));
         Log.i("DECLINED_PERMISSIONS ",
-              Arrays.toString(data.getStringArrayExtra(Keys.DECLINED_PERMISSIONS)));
+              Arrays.toString(data.getStringArrayExtra(Gramit.DECLINED_PERMISSIONS)));
     }
 ```
 That's it!
